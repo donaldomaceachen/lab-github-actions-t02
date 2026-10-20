@@ -11,6 +11,8 @@ env:
   APP_NAME: lab-github-actions
 
 jobs:
+  actualizar:
+    runs-on: ubuntu-latest
   build:
     name: Build Docker Image
     runs-on: ubuntu-latest
