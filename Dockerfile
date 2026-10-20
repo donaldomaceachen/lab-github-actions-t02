@@ -1,2 +1,2 @@
-FROM nginx:ubuntu
+FROM nginx:alpine-latest
 COPY index.html /usr/share/nginx/html/index.html
